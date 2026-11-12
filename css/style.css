@@ -1,0 +1,1519 @@
+
+/* =================================
+   GENERAL STYLING
+================================= */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222222;
+    background-color: #ffffff;
+    margin: 0;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* =================================
+   NAVIGATION BAR
+================================= */
+
+.navbar {
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 1.6rem;
+    color: #222222;
+}
+
+.brand-highlight {
+    color: #6CB6E8;
+}
+
+.nav-link {
+    color: #222222;
+    margin-left: 10px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #4A9DD6;
+}
+
+
+/* =================================
+   HERO SECTION
+================================= */
+
+.hero-section {
+    background: linear-gradient(
+        120deg,
+        #EAF5FC,
+        #FFFFFF
+    );
+    padding: 100px 0;
+}
+
+.hero-label,
+.section-label {
+    color: #4A9DD6;
+    font-size: 0.85rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.hero-section h1 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.highlight-text {
+    color: #4A9DD6;
+}
+
+.hero-description {
+    font-size: 1.15rem;
+    color: #555555;
+    max-width: 650px;
+    margin-bottom: 30px;
+}
+
+.custom-btn {
+    background-color: #6CB6E8;
+    border-color: #6CB6E8;
+    color: #172B3A;
+    padding: 12px 22px;
+    margin-right: 8px;
+    transition: 0.3s ease;
+}
+
+.custom-btn:hover {
+    background-color: #4A9DD6;
+    border-color: #4A9DD6;
+    color: #ffffff;
+}
+
+.secondary-btn {
+    padding: 12px 22px;
+}
+
+
+/* =================================
+   HERO VISUAL
+================================= */
+
+.hero-visual {
+    background-color: #ffffff;
+    border: 1px solid #D9EAF5;
+    border-radius: 20px;
+    padding: 50px 25px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+}
+
+.visual-icon {
+    font-size: 3.5rem;
+    margin-bottom: 15px;
+}
+
+
+/* =================================
+   SECTION HEADINGS
+================================= */
+
+.intro-section,
+.career-section {
+    padding: 65px 0;
+}
+
+.section-heading {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.section-heading h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.section-heading p:not(.section-label) {
+    color: #666666;
+}
+
+
+/* =================================
+   INTEREST CARDS
+================================= */
+
+.interest-card {
+    height: 100%;
+    background-color: #F4FAFE;
+    border: 1px solid #E0EFF8;
+    border-radius: 15px;
+    padding: 30px;
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.interest-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.card-icon {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+
+.interest-card h4 {
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.interest-card p {
+    color: #666666;
+    margin-bottom: 0;
+}
+
+
+/* =================================
+   CAREER SECTION
+================================= */
+
+.career-section {
+    background-color: #EAF5FC;
+}
+
+.career-card {
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 35px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.04);
+    transition: transform 0.3s ease;
+}
+
+.career-card:hover {
+    transform: translateY(-5px);
+}
+
+.career-card h4 {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.career-card p {
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+.career-card a {
+    color: #368CCB;
+    font-weight: 600;
+}
+
+.career-card a:hover {
+    color: #185F96;
+}
+
+
+/* =================================
+   FOOTER
+================================= */
+
+.site-footer {
+    background-color: #222222;
+    color: #ffffff;
+    padding: 30px 0;
+}
+
+.site-footer p {
+    margin-bottom: 5px;
+}
+
+.footer-small {
+    color: #cccccc;
+    font-size: 0.9rem;
+}
+
+
+/* =================================
+   RESPONSIVE DESIGN
+================================= */
+
+@media (max-width: 768px) {
+
+    .hero-section {
+        padding: 65px 0;
+    }
+
+    .hero-section h1 {
+        font-size: 2.3rem;
+    }
+
+    .section-heading h2 {
+        font-size: 1.8rem;
+    }
+
+    .hero-visual {
+        padding: 35px 20px;
+    }
+
+    .nav-link {
+        margin-left: 0;
+        padding: 10px 0;
+    }
+
+}
+
+
+
+/* =================================
+   CAREER EXPLORATION PAGE
+================================= */
+
+/* Page Header */
+
+.page-header {
+    background: linear-gradient(120deg, #EAF5FC, #FFFFFF);
+    padding: 75px 0;
+}
+
+.page-header h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.page-header p:not(.section-label) {
+    color: #666666;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+
+/* Content Sections */
+
+.content-section {
+    padding: 65px 0;
+}
+
+.research-intro,
+.reflection-card {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.research-intro h2,
+.reflection-card h2 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.research-intro p,
+.reflection-card p {
+    color: #555555;
+    font-size: 1.05rem;
+}
+
+
+/* Job Research Cards */
+
+.job-section {
+    padding: 35px 0;
+}
+
+.alternate-section {
+    background-color: #EAF5FC;
+}
+
+.job-card {
+    background-color: #ffffff;
+    border: 1px solid #E0EFF8;
+    border-radius: 18px;
+    padding: 40px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.04);
+}
+
+.job-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid #E5E5E5;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+
+.job-category {
+    color: #4A9DD6;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+.job-card h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.job-card h5 {
+    color: #777777;
+}
+
+.job-number {
+    color: #A9D9F5;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.job-card h4 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin-top: 28px;
+    margin-bottom: 12px;
+}
+
+.job-card p,
+.job-card li {
+    color: #555555;
+}
+
+.job-card li {
+    margin-bottom: 8px;
+}
+
+
+/* Skill Tags */
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-list span {
+    background-color: #EAF5FC;
+    color: #245D83;
+    padding: 7px 14px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+
+/* Job Source Links */
+
+.source-link {
+    display: inline-block;
+    color: #368CCB;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.source-link:hover {
+    color: #185F96;
+}
+
+
+/* Comparison Table */
+
+.comparison-section {
+    background-color: #F4FAFE;
+    padding: 85px 0;
+}
+
+.comparison-table {
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    min-width: 750px;
+}
+
+.comparison-table th {
+    background-color: #DCEFFA;
+    color: #222222;
+}
+
+.comparison-table td,
+.comparison-table th {
+    padding: 18px;
+    vertical-align: middle;
+}
+
+.comparison-table tbody tr:hover {
+    background-color: #F4FAFE;
+}
+
+
+/* Career Reflection */
+
+.reflection-card {
+    background-color: #F4FAFE;
+    border-left: 5px solid #6CB6E8;
+    border-radius: 12px;
+    padding: 35px;
+}
+
+
+/* Research Date */
+
+.research-date {
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+
+.research-date p {
+    color: #777777;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+
+    .page-header {
+        padding: 55px 0;
+    }
+
+    .page-header h1 {
+        font-size: 2.1rem;
+    }
+
+    .job-card {
+        padding: 25px;
+    }
+
+    .job-card h2 {
+        font-size: 1.6rem;
+    }
+
+    .job-number {
+        font-size: 2rem;
+    }
+
+    .reflection-card {
+        padding: 25px;
+    }
+
+}
+
+
+
+/* =================================
+   PROFESSIONAL GOALS PAGE
+================================= */
+
+.goals-section {
+    padding: 75px 0;
+}
+
+.goal-intro {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.goal-intro h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.goal-intro p:not(.section-label) {
+    color: #555555;
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+
+/* Short-Term Goal Cards */
+
+.goal-card {
+    height: 100%;
+    background-color: #ffffff;
+    border: 1px solid #E0EFF8;
+    border-radius: 15px;
+    padding: 30px;
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.goal-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07);
+}
+
+.goal-icon {
+    font-size: 2.3rem;
+    margin-bottom: 18px;
+}
+
+.goal-card h4 {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.goal-card p {
+    color: #666666;
+    margin-bottom: 0;
+    line-height: 1.7;
+}
+
+
+/* Technical Development Cards */
+
+.development-card {
+    height: 100%;
+    background-color: #F4FAFE;
+    border: 1px solid #E0EFF8;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.development-card h4 {
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-bottom: 22px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #A9D9F5;
+}
+
+.development-card ul {
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.development-card li {
+    color: #555555;
+    margin-bottom: 13px;
+}
+
+
+/* Long-Term Goals */
+
+.future-card {
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 35px;
+    border: 1px solid #E0EFF8;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.04);
+}
+
+.future-card h4 {
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.future-card p {
+    color: #555555;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+
+/* Professional Vision */
+
+.vision-statement {
+    color: #368CCB;
+    font-weight: 700;
+    margin-top: 30px;
+    font-style: italic;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+
+    .goals-section {
+        padding: 55px 0;
+    }
+
+    .goal-intro h2 {
+        font-size: 1.8rem;
+    }
+
+    .goal-card,
+    .development-card,
+    .future-card {
+        padding: 25px;
+    }
+
+}
+
+
+
+/* =================================
+   PORTFOLIO DESIGN PAGE
+================================= */
+
+.design-intro {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.design-intro h2 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.design-intro p:not(.section-label) {
+    color: #555555;
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+
+/* Audience Points */
+
+.audience-points {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.audience-points div {
+    background-color: #F4FAFE;
+    border: 1px solid #E0EFF8;
+    border-radius: 12px;
+    padding: 22px;
+}
+
+.audience-points strong,
+.audience-points span {
+    display: block;
+}
+
+.audience-points strong {
+    margin-bottom: 8px;
+}
+
+.audience-points span {
+    color: #666666;
+    font-size: 0.95rem;
+}
+
+
+/* Design Direction Cards */
+
+.design-directions {
+    padding: 85px 0;
+}
+
+.direction-card {
+    background-color: #ffffff;
+    border: 1px solid #E0EFF8;
+    border-radius: 18px;
+    padding: 35px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.04);
+}
+
+.direction-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 25px;
+}
+
+.direction-label {
+    color: #4A9DD6;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+.direction-heading h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 8px 0;
+}
+
+.direction-personality {
+    color: #777777;
+    margin: 0;
+}
+
+.direction-letter {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #A9D9F5;
+}
+
+
+/* Portfolio Mockups */
+
+.mockup-frame {
+    border-radius: 14px;
+    overflow: hidden;
+    min-height: 300px;
+    margin-bottom: 30px;
+    border: 1px solid #E0E0E0;
+}
+
+
+/* Modern Professional Mockup */
+
+.modern-mockup {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.mockup-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid #EEEEEE;
+    font-size: 0.85rem;
+}
+
+.mockup-navbar strong {
+    color: #222222;
+}
+
+.mockup-navbar div,
+.creative-navbar div {
+    display: flex;
+    gap: 18px;
+    color: #666666;
+}
+
+.modern-hero {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    gap: 30px;
+    align-items: center;
+    padding: 35px 25px;
+}
+
+.modern-hero-text > span {
+    color: #4A9DD6;
+    font-size: 0.7rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.modern-hero-text h4 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 12px 0;
+}
+
+.modern-hero-text p {
+    color: #777777;
+    font-size: 0.9rem;
+}
+
+.mockup-button {
+    display: inline-block;
+    background-color: #A9D9F5;
+    color: #222222;
+    padding: 9px 16px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.modern-hero-image {
+    background-color: #EAF5FC;
+    border-radius: 12px;
+    min-height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.modern-hero-image span {
+    font-size: 2.5rem;
+}
+
+.modern-hero-image p {
+    color: #555555;
+    font-size: 0.8rem;
+}
+
+.modern-projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    padding: 0 25px 20px;
+}
+
+.modern-projects div {
+    height: 48px;
+    background-color: #F0F6FA;
+    border-radius: 6px;
+}
+
+
+/* Creative Technology Mockup */
+
+.creative-mockup {
+    background-color: #172033;
+    color: #ffffff;
+    padding: 20px;
+    border: none;
+}
+
+.creative-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid #354057;
+    font-size: 0.8rem;
+}
+
+.creative-navbar strong {
+    letter-spacing: 1px;
+}
+
+.creative-navbar strong span {
+    color: #35D5E8;
+}
+
+.creative-navbar div {
+    color: #D5DCE9;
+}
+
+.creative-hero {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    align-items: center;
+    padding: 30px 25px;
+    gap: 20px;
+}
+
+.creative-label {
+    color: #35D5E8;
+    font-size: 0.7rem;
+    letter-spacing: 1.5px;
+}
+
+.creative-hero h4 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 12px 0;
+    line-height: 1.15;
+}
+
+.creative-hero h4 span {
+    color: #35D5E8;
+}
+
+.creative-hero p {
+    color: #BFC9DA;
+    font-size: 0.85rem;
+}
+
+.creative-button {
+    display: inline-block;
+    border: 1px solid #35D5E8;
+    color: #35D5E8;
+    padding: 9px 13px;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.creative-art {
+    position: relative;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.art-circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #3867E8, #35D5E8);
+}
+
+.art-square {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background-color: #9B78ED;
+    border-radius: 12px;
+    transform: rotate(35deg);
+    opacity: 0.85;
+    right: 18%;
+    top: 10%;
+}
+
+.art-orbit {
+    position: absolute;
+    color: #ffffff;
+    font-size: 2rem;
+    left: 15%;
+    bottom: 15%;
+}
+
+
+/* Direction Details */
+
+.direction-details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.direction-details h4 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.direction-details p {
+    color: #666666;
+    margin-bottom: 0;
+    line-height: 1.7;
+}
+
+
+/* Color Palette Swatches */
+
+.palette-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.palette-swatch {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #DDDDDD;
+    border-radius: 50%;
+}
+
+
+/* Final Design */
+
+.final-design-section {
+    background-color: #EAF5FC;
+    padding: 85px 0;
+}
+
+.final-design-card {
+    background-color: #ffffff;
+    border: 2px solid #A9D9F5;
+    border-radius: 18px;
+    padding: 40px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+}
+
+.selected-badge {
+    display: inline-block;
+    background-color: #EAF5FC;
+    color: #368CCB;
+    font-size: 0.75rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 8px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.final-design-card h3 {
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.final-design-card > p {
+    color: #666666;
+    line-height: 1.8;
+    max-width: 850px;
+}
+
+.final-design-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.final-design-grid div {
+    background-color: #F4FAFE;
+    border-radius: 12px;
+    padding: 22px;
+}
+
+.final-design-grid h4 {
+    font-size: 1.05rem;
+    font-weight: 700;
+}
+
+.final-design-grid p {
+    color: #666666;
+    font-size: 0.95rem;
+    margin-bottom: 0;
+}
+
+
+/* Design Specifications */
+
+.design-specs {
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #E0E0E0;
+}
+
+.spec-row {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 25px;
+    align-items: center;
+    padding: 22px 15px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.spec-row h4 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.spec-row p {
+    color: #666666;
+    margin: 0;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+
+    .audience-points,
+    .direction-details,
+    .final-design-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .direction-card {
+        padding: 22px;
+    }
+
+    .direction-heading h3 {
+        font-size: 1.4rem;
+    }
+
+    .mockup-navbar,
+    .creative-navbar {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .mockup-navbar div,
+    .creative-navbar div {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .modern-hero,
+    .creative-hero {
+        grid-template-columns: 1fr;
+    }
+
+    .modern-hero h4,
+    .creative-hero h4 {
+        font-size: 1.5rem;
+    }
+
+    .creative-art {
+        height: 140px;
+    }
+
+    .final-design-card {
+        padding: 25px;
+    }
+
+    .final-design-card h3 {
+        font-size: 1.5rem;
+    }
+
+    .spec-row {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+}
+
+
+
+
+/* =================================
+   USER STORIES PAGE
+================================= */
+
+.user-story-intro {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.user-story-intro h2 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.user-story-intro p:not(.section-label) {
+    color: #555555;
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+
+/* User Story Sections */
+
+.user-stories-section {
+    padding: 35px 0;
+}
+
+.user-story-card {
+    background-color: #ffffff;
+    border: 1px solid #E0EFF8;
+    border-radius: 16px;
+    padding: 35px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.04);
+}
+
+
+/* Story Heading */
+
+.story-header {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    margin-bottom: 25px;
+}
+
+.story-number {
+    color: #A9D9F5;
+    font-size: 2.7rem;
+    font-weight: bold;
+}
+
+.story-category {
+    color: #4A9DD6;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+.story-header h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 5px 0 0;
+}
+
+
+/* User Story Statement */
+
+.user-story-statement {
+    background-color: #F4FAFE;
+    border-left: 4px solid #6CB6E8;
+    border-radius: 8px;
+    padding: 22px;
+    margin-bottom: 28px;
+}
+
+.user-story-statement p {
+    color: #444444;
+    font-size: 1.05rem;
+    line-height: 1.8;
+    margin: 0;
+}
+
+
+/* Acceptance Criteria */
+
+.user-story-card h4 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.acceptance-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.acceptance-list li {
+    position: relative;
+    padding-left: 32px;
+    margin-bottom: 14px;
+    color: #555555;
+    line-height: 1.6;
+}
+
+.acceptance-list li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #368CCB;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+
+    .user-stories-section {
+        padding: 25px 0;
+    }
+
+    .user-story-card {
+        padding: 25px;
+    }
+
+    .story-number {
+        font-size: 2.1rem;
+    }
+
+    .story-header h3 {
+        font-size: 1.25rem;
+    }
+
+}
+
+
+
+/* =================================
+   FEEDBACK PAGE
+================================= */
+
+.feedback-intro {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.feedback-intro h2 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.feedback-intro p:not(.section-label) {
+    color: #555555;
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+
+/* Feedback Sections */
+
+.feedback-section {
+    padding: 75px 0;
+}
+
+
+/* Peer Feedback Card */
+
+.feedback-card,
+.github-issue-card,
+.change-card {
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    border: 1px solid #E0EFF8;
+    border-radius: 16px;
+    padding: 35px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.04);
+}
+
+.feedback-status {
+    display: inline-block;
+    background-color: #EAF5FC;
+    color: #368CCB;
+    font-size: 0.75rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 8px 14px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+
+.feedback-detail {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    gap: 15px;
+    padding: 12px 0;
+}
+
+.feedback-detail strong {
+    color: #222222;
+}
+
+.feedback-detail span {
+    color: #666666;
+}
+
+.feedback-card h4 {
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.feedback-placeholder {
+    background-color: #F4FAFE;
+    border-left: 4px solid #A9D9F5;
+    padding: 22px;
+    border-radius: 8px;
+}
+
+.feedback-placeholder p,
+.response-placeholder {
+    color: #666666;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+.response-placeholder {
+    background-color: #FAFAFA;
+    padding: 18px;
+    border-radius: 8px;
+}
+
+
+/* GitHub Issue */
+
+.github-issue-card {
+    text-align: center;
+}
+
+.issue-icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.github-issue-card h3 {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.github-issue-card > p {
+    color: #666666;
+    line-height: 1.8;
+    max-width: 700px;
+    margin: 0 auto 25px;
+}
+
+.issue-fields {
+    text-align: left;
+    margin-top: 25px;
+}
+
+.issue-fields div {
+    padding: 18px;
+    background-color: #F4FAFE;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.issue-fields strong {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.issue-fields p {
+    color: #666666;
+    margin-bottom: 0;
+    overflow-wrap: anywhere;
+}
+
+
+/* Change Process */
+
+.change-card {
+    padding: 15px 35px;
+}
+
+.change-step {
+    display: flex;
+    align-items: flex-start;
+    gap: 22px;
+    padding: 25px 0;
+    border-bottom: 1px solid #EAEAEA;
+}
+
+.change-step:last-child {
+    border-bottom: none;
+}
+
+.change-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #EAF5FC;
+    color: #368CCB;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.change-step h4 {
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+.change-step p {
+    color: #666666;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+
+    .feedback-section {
+        padding: 55px 0;
+    }
+
+    .feedback-card,
+    .github-issue-card,
+    .change-card {
+        padding: 25px;
+    }
+
+    .feedback-detail {
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+
+    .change-step {
+        gap: 15px;
+    }
+
+}
+
+.source-note {
+    color: #777777;
+    font-size: 0.85rem;
+    margin-top: 12px;
+}
